@@ -1,0 +1,14 @@
+﻿<Window x:Class="Wallet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wallet"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="381.558">
+    <Grid>
+        <Button x:Name="ChangeWalletBtn" Content="Поменять кошелек" HorizontalAlignment="Left" Margin="252,10,0,0" VerticalAlignment="Top" Width="112" Height="68" Click="changeWalletBtn"/>
+        <ListBox x:Name="fileListBox" HorizontalAlignment="Left" Height="399" Margin="21,10,0,0" VerticalAlignment="Top" Width="226" MouseDoubleClick="fileListBox_MouseDoubleClick"/>
+        <Button x:Name="addWalletsBtn" Content="Выбрать кошельки" HorizontalAlignment="Left" Margin="252,154,0,0" VerticalAlignment="Top" Width="112" Height="61" Click="addWalletsBtn_Click"/>
+    </Grid>
+</Window>
